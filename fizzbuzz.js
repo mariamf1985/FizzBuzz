@@ -1,4 +1,13 @@
-function compararNúmeros() {
+
+
+
+
+
+
+
+
+
+/*function compararNúmeros() {
     for (let númeroAComparar = 1; númeroAComparar <= 15; númeroAComparar++) {
         if (númeroAComparar % 3 === 0 && númeroAComparar % 5 === 0) {
             console.log(`${númeroAComparar} FizzBuzz`);
@@ -11,4 +20,4 @@ function compararNúmeros() {
         }
     }
 }
-compararNúmeros(); 
+compararNúmeros(); */
