@@ -1,23 +1,19 @@
+class FizzBuzz{
 
+    validar_primos_3_5(numero) {
 
+        if (numero %15 === 0){
+            return "FizzBuzz";
 
-
-
-
-
-
-
-/*function compararNúmeros() {
-    for (let númeroAComparar = 1; númeroAComparar <= 15; númeroAComparar++) {
-        if (númeroAComparar % 3 === 0 && númeroAComparar % 5 === 0) {
-            console.log(`${númeroAComparar} FizzBuzz`);
-        } else if (númeroAComparar % 3 === 0) {
-            console.log(`${númeroAComparar} Fizz`);
-        } else if (númeroAComparar % 5 === 0) {
-            console.log(`${númeroAComparar} Buzz`);
+        } else if (numero %3 === 0){
+            return "Fizz";
+        } else if(numero %5 === 0){
+            return "Buzz";
         } else {
-            console.log(`${númeroAComparar}`);
+            return numero;
         }
+        
     }
-}
-compararNúmeros(); */
+};
+
+module.exports = FizzBuzz;
